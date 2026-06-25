@@ -1,0 +1,1 @@
+CREATE OR REPLACE VIEW public.products_view AS SELECT * FROM public.products;

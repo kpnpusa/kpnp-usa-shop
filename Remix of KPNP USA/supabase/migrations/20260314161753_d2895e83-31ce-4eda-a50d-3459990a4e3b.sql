@@ -1,0 +1,1 @@
+ALTER TABLE public.products ADD COLUMN IF NOT EXISTS stock_status text NOT NULL DEFAULT 'in_stock';

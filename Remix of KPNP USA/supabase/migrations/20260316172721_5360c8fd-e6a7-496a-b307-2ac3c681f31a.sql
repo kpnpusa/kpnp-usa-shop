@@ -1,0 +1,1 @@
+ALTER TABLE public.products ADD COLUMN available_variants jsonb DEFAULT NULL;

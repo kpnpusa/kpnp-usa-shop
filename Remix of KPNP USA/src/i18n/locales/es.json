@@ -1,0 +1,293 @@
+{
+  "nav": {
+    "shop": "Tienda",
+    "rental": "Alquiler",
+    "website": "Sitio Web",
+    "contact": "Contacto",
+    "visitWebsite": "Visitar Nuestro Sitio",
+    "contactUs": "Contáctenos",
+    "myAccount": "Mi Cuenta",
+    "signIn": "Iniciar Sesión",
+    "signInCreate": "Iniciar Sesión / Crear Cuenta",
+    "menu": "Menú"
+  },
+  "hero": {
+    "subtitle": "KPNP USA Oficial",
+    "line1": "ELEVA TU",
+    "line2": "EXPERIENCIA",
+    "line3": "DE TORNEO",
+    "description": "Sistemas electrónicos de puntuación profesional, equipo de protección y ropa de competición de confianza mundial.",
+    "shopNow": "Comprar Ahora",
+    "viewEquipment": "Ver Catálogo"
+  },
+  "products": {
+    "title_prefix": "PRODUCTOS",
+    "title_suffix": "OFICIALES",
+    "description": "Sistemas electrónicos de puntuación aprobados por World Taekwondo, equipo de protección premium, uniformes de competición y ropa de rendimiento — diseñados para atletas de élite.",
+    "all": "Todos los Productos",
+    "k1-pss": "Sistema K1 PSS",
+    "k2-pss": "Sistema K2 PSS",
+    "apparel": "Ropa",
+    "uniforms": "Uniformes",
+    "training": "Equipo de Entrenamiento",
+    "outOfStock": "Agotado",
+    "priceTBD": "Precio por definir",
+    "addToCart": "Agregar al Carrito"
+  },
+  "rental": {
+    "title_prefix": "ALQUILER DE",
+    "title_suffix": "EQUIPOS",
+    "description": "¿Necesitas sistemas de puntuación para tu torneo? Completa el formulario y nuestro equipo te proporcionará una cotización personalizada.",
+    "name": "Nombre",
+    "email": "Correo Electrónico",
+    "phone": "Teléfono",
+    "eventDate": "Fecha del Evento",
+    "location": "Ubicación / Información del Lugar",
+    "tournamentWebsite": "Sitio Web del Torneo (Si está disponible)",
+    "message": "Tu Mensaje",
+    "namePlaceholder": "Tu nombre",
+    "emailPlaceholder": "tu@email.com",
+    "phonePlaceholder": "(555) 555-5555",
+    "locationPlaceholder": "Dirección, Ciudad, Estado",
+    "websitePlaceholder": "https://...",
+    "messagePlaceholder": "Cuéntanos sobre tu evento y necesidades de equipo...",
+    "submit": "Enviar Consulta",
+    "sentTitle": "¡CONSULTA ENVIADA!",
+    "sentMessage": "Gracias por tu consulta de alquiler. Nuestro equipo se pondrá en contacto contigo pronto.",
+    "submitAnother": "Enviar Otra Consulta",
+    "emailOpening": "¡Abriendo cliente de correo con tu consulta!"
+  },
+  "cart": {
+    "title": "TU CARRITO",
+    "empty": "Tu carrito está vacío",
+    "size": "Talla",
+    "color": "Color",
+    "total": "Total",
+    "checkout": "Pagar",
+    "signInCheckout": "Iniciar Sesión para Pagar"
+  },
+  "footer": {
+    "officialDistributor": "Distribuidor oficial KPNP USA.",
+    "contact": "Contacto",
+    "followUs": "Síguenos",
+    "rights": "© 2026 KPNP USA. Todos los derechos reservados."
+  },
+  "auth": {
+    "backToShop": "Volver a la Tienda",
+    "createAccount": "Crear Cuenta",
+    "signIn": "Iniciar Sesión",
+    "signupSubtitle": "Crea tu cuenta para guardar tu información y agilizar el pago",
+    "signinSubtitle": "Inicia sesión para gestionar tu cuenta y pedidos",
+    "fullName": "Nombre Completo",
+    "phoneNumber": "Teléfono",
+    "shippingAddress": "Dirección de Envío",
+    "addressLine1": "Dirección Línea 1",
+    "addressLine2": "Dirección Línea 2 (opcional)",
+    "city": "Ciudad",
+    "state": "Estado",
+    "zip": "Código Postal",
+    "email": "Correo Electrónico",
+    "password": "Contraseña",
+    "pleaseWait": "Espere...",
+    "accountCreated": "¡Cuenta creada!",
+    "checkEmail": "Revisa tu correo para verificar tu cuenta antes de iniciar sesión.",
+    "alreadyHaveAccount": "¿Ya tienes cuenta? Inicia sesión",
+    "noAccount": "¿No tienes cuenta? Crea una",
+    "forgotPassword": "¿Olvidaste tu contraseña?",
+    "forgotSubtitle": "Ingresa tu correo y te enviaremos un enlace para restablecerla",
+    "sendResetLink": "Enviar Enlace",
+    "resetEmailSent": "¡Enlace enviado!",
+    "resetEmailSentDesc": "Revisa tu correo para el enlace de restablecimiento.",
+    "backToSignIn": "Volver a Iniciar Sesión",
+    "invalidZip": "Ingresa un código postal válido (ej: 12345 o 12345-6789).",
+    "selectState": "Selecciona un estado."
+  },
+  "resetPassword": {
+    "title": "Restablecer Contraseña",
+    "subtitle": "Ingresa tu nueva contraseña",
+    "newPassword": "Nueva Contraseña",
+    "confirmPassword": "Confirmar Contraseña",
+    "updatePassword": "Actualizar Contraseña",
+    "success": "¡Contraseña actualizada!",
+    "successDesc": "Tu contraseña ha sido cambiada exitosamente.",
+    "error": "Error",
+    "mismatch": "Las contraseñas no coinciden.",
+    "tooShort": "La contraseña debe tener al menos 6 caracteres.",
+    "invalidLink": "Este enlace de restablecimiento es inválido o ha expirado."
+  },
+  "account": {
+    "backToShop": "Volver a la Tienda",
+    "title": "Mi Cuenta",
+    "profile": "Perfil",
+    "orders": "Pedidos",
+    "notifications": "Notificaciones",
+    "personalInfo": "Información Personal",
+    "fullName": "Nombre Completo",
+    "phone": "Teléfono",
+    "shippingAddress": "Dirección de Envío",
+    "addressLine1": "Dirección Línea 1",
+    "addressLine2": "Dirección Línea 2",
+    "city": "Ciudad",
+    "state": "Estado",
+    "zip": "Código Postal",
+    "saveProfile": "Guardar Perfil",
+    "saving": "Guardando...",
+    "profileSaved": "Perfil guardado",
+    "profileSavedDesc": "Tu información ha sido actualizada.",
+    "orderHistory": "Historial de Pedidos",
+    "noOrders": "Aún no hay pedidos.",
+    "order": "Pedido",
+    "noNotifications": "Aún no hay notificaciones.",
+    "markAsRead": "Marcar como leído",
+    "signOut": "Cerrar Sesión",
+    "items": "Artículos"
+  },
+  "checkout": {
+    "title": "PAGO",
+    "back": "Volver",
+    "subtotal": "Subtotal",
+    "shipping": "Envío",
+    "tax": "Impuesto (8.875%)",
+    "total": "Total",
+    "processing": "Procesando…",
+    "pay": "Pagar",
+    "securedByStripe": "Protegido por Stripe. Tu información de tarjeta nunca se almacena.",
+    "shipsToUS": "Envío solo a Estados Unidos",
+    "settingUp": "Configurando pago seguro…",
+    "paymentFailed": "Pago fallido",
+    "paymentSuccess": "¡Pago exitoso!",
+    "orderPlaced": "Tu pedido ha sido realizado.",
+    "stepContact": "Contacto",
+    "stepShipping": "Envío",
+    "stepPayment": "Pago",
+    "contactInfo": "Información de Contacto",
+    "fullName": "Nombre Completo",
+    "emailLabel": "Correo Electrónico",
+    "phone": "Teléfono",
+    "continue": "Continuar",
+    "shippingAddress": "Dirección de Envío",
+    "name": "Nombre",
+    "email": "Correo",
+    "address": "Dirección",
+    "discountCode": "Código de Descuento",
+    "apply": "Aplicar",
+    "remove": "Quitar",
+    "discountApplied": "¡Descuento aplicado!",
+    "edit": "Editar",
+    "done": "Listo",
+    "addressConfirmed": "Dirección confirmada",
+    "pleaseCompleteAddress": "Complete su dirección de envío",
+    "addressLine1": "Dirección",
+    "addressLine2": "Apto, suite, etc. (opcional)",
+    "city": "Ciudad",
+    "state": "Estado",
+    "zip": "Código postal",
+    "errorLine1": "La dirección es obligatoria",
+    "errorCity": "La ciudad es obligatoria",
+    "errorState": "El estado es obligatorio",
+    "errorZip": "El código postal es obligatorio"
+  },
+  "checkoutSuccess": {
+    "title": "PEDIDO CONFIRMADO",
+    "message": "¡Gracias por tu compra! Recibirás un correo de confirmación en breve.",
+    "continueShopping": "Seguir Comprando"
+  },
+  "variant": {
+    "priceTBD": "Precio por definir",
+    "size": "Talla",
+    "color": "Color",
+    "outOfStock": "Agotado",
+    "selectSize": "una talla",
+    "selectColor": "un color",
+    "select": "Selecciona",
+    "and": "y",
+    "addToCart": "Agregar al Carrito"
+  },
+  "chat": {
+    "greeting": "¡Hola! Soy el asistente de KPNP USA. ¿Cómo puedo ayudarte hoy? Pregunta sobre productos, alquileres o lo que necesites.",
+    "liveAgent": "Agente en Vivo",
+    "assistant": "Asistente KPNP",
+    "connectedToAgent": "Conectado al agente",
+    "waitingForAgent": "Esperando agente...",
+    "aiOnline": "IA · En línea",
+    "talkToHuman": "Hablar con un agente humano",
+    "agentNotified": "He notificado a un agente humano. ¡Estará contigo pronto! Mientras tanto, puedes seguir conversando conmigo.",
+    "agentEnded": "El agente ha finalizado el chat. ¡Estoy de vuelta para ayudarte!",
+    "messageAgent": "Mensaje al agente...",
+    "askAbout": "Pregunta sobre productos, alquileres...",
+    "thinking": "Pensando...",
+    "errorMessage": "Lo siento, encontré un error. Inténtalo de nuevo.",
+    "endChat": "Finalizar Chat",
+    "businessHours": "Chat en Vivo: Lun–Vie, 8 AM – 5 PM EST"
+  },
+  "language": {
+    "label": "Idioma"
+  },
+  "equipment": {
+    "title_prefix": "GALERÍA DE",
+    "title_suffix": "EQUIPOS",
+    "description": "Explora nuestra línea completa de equipos, uniformes y accesorios aprobados por World Taekwondo.",
+    "viewDetail": "Ver Detalles",
+    "photos": "fotos",
+    "goToShop": "Ir a la Tienda",
+    "noProducts": "No se encontraron productos en esta categoría."
+  },
+  "orderStatus": {
+    "pending": "Pendiente",
+    "confirmed": "Confirmado",
+    "processing": "En Proceso",
+    "shipped": "Enviado",
+    "delivered": "Entregado",
+    "cancelled": "Cancelado"
+  },
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "subtitle": "Todo lo que necesitas saber sobre los productos y servicios de KPNP",
+    "items": {
+      "whatIsKPNP": {
+        "q": "¿Qué es KPNP y qué productos ofrecen?",
+        "a": "KPNP es un fabricante aprobado por World Taekwondo de sistemas electrónicos de puntuación (PSS), equipo de protección, uniformes de competición y ropa deportiva. Somos el distribuidor oficial en EE.UU. de todos los productos KPNP."
+      },
+      "shippingTime": {
+        "q": "¿Cuánto tarda el envío?",
+        "a": "El envío estándar dentro de los Estados Unidos toma de 3 a 7 días hábiles. Las opciones de envío exprés están disponibles en el checkout. Los pedidos realizados antes de las 2 PM EST se procesan el mismo día."
+      },
+      "internationalShipping": {
+        "q": "¿Realizan envíos internacionales?",
+        "a": "Actualmente solo enviamos dentro de los Estados Unidos. Para pedidos internacionales, contáctenos en info@kpnpamerica.com y trabajaremos para satisfacer sus necesidades."
+      },
+      "returnPolicy": {
+        "q": "¿Cuál es su política de devoluciones?",
+        "a": "Aceptamos devoluciones dentro de los 30 días posteriores a la compra para artículos sin usar en su empaque original. El equipo electrónico debe devolverse sellado de fábrica. Contacte a nuestro equipo de soporte para iniciar una devolución."
+      },
+      "rentalHow": {
+        "q": "¿Cómo funciona el alquiler de equipos?",
+        "a": "Ofrecemos alquiler completo de equipos PSS para torneos y eventos. Complete el formulario de consulta de alquiler con los detalles de su evento y nuestro equipo le proporcionará un presupuesto personalizado que incluye montaje, entrega y soporte técnico."
+      },
+      "paymentMethods": {
+        "q": "¿Qué métodos de pago aceptan?",
+        "a": "Aceptamos todas las tarjetas de crédito principales (Visa, Mastercard, American Express, Discover) a través del procesamiento seguro de Stripe. También aceptamos transferencias bancarias para pedidos grandes."
+      },
+      "productWarranty": {
+        "q": "¿Sus productos tienen garantía?",
+        "a": "Los productos del sistema PSS están cubiertos por una garantía del fabricante de 1 año. Todos los productos que no pertenecen al sistema PSS están cubiertos por defectos de fabricación dentro de los 7 días a partir de la fecha de recepción del producto. Para los calcetines electrónicos, la garantía se anula una vez que se retira la etiqueta."
+      },
+      "contactSupport": {
+        "q": "¿Cómo puedo contactar al soporte al cliente?",
+        "a": "Puede comunicarse con nosotros por teléfono al (585) 570-5767, por correo electrónico a info@kpnpamerica.com, o usar el chat en nuestro sitio web. Nuestro equipo de soporte está disponible de lunes a viernes, de 9 AM a 5 PM EST."
+      }
+    }
+  },
+  "pushOnboarding": {
+    "title": "Mantente Informado",
+    "subtitle": "No te pierdas ninguna actualización importante",
+    "benefit1Title": "Seguimiento de Pedidos",
+    "benefit1Desc": "Recibe actualizaciones en tiempo real sobre envío y entrega",
+    "benefit2Title": "Ofertas Exclusivas",
+    "benefit2Desc": "Sé el primero en conocer promociones y nuevos productos",
+    "benefit3Title": "Alertas de Torneos",
+    "benefit3Desc": "Mantente al día con eventos y competencias",
+    "enable": "Activar Notificaciones",
+    "skip": "Quizás Después"
+  }
+}

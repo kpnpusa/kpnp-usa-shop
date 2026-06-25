@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@layer base {
+  :root {
+    --background: 0 0% 4%;
+    --foreground: 0 0% 95%;
+
+    --card: 0 0% 7%;
+    --card-foreground: 0 0% 95%;
+
+    --popover: 0 0% 7%;
+    --popover-foreground: 0 0% 95%;
+
+    --primary: 0 76% 55%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 0 0% 12%;
+    --secondary-foreground: 0 0% 95%;
+
+    --muted: 0 0% 14%;
+    --muted-foreground: 0 0% 55%;
+
+    --accent: 0 0% 14%;
+    --accent-foreground: 0 0% 95%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 0 0% 16%;
+    --input: 0 0% 16%;
+    --ring: 0 76% 55%;
+
+    --radius: 0.5rem;
+
+    --kpnp-red: 0 76% 55%;
+    --kpnp-red-glow: 0 76% 65%;
+    --kpnp-gold: 43 96% 56%;
+    --kpnp-dark: 0 0% 4%;
+    --kpnp-darker: 0 0% 2%;
+
+    --sidebar-background: 0 0% 6%;
+    --sidebar-foreground: 0 0% 95%;
+    --sidebar-primary: 0 76% 55%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 0 0% 12%;
+    --sidebar-accent-foreground: 0 0% 95%;
+    --sidebar-border: 0 0% 16%;
+    --sidebar-ring: 0 76% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-family: 'Inter', sans-serif;
+  }
+
+  h1, h2, h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 0.04em;
+  }
+}
+
+@layer utilities {
+  .text-gradient-red {
+    @apply bg-clip-text text-transparent;
+    background-image: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--kpnp-red-glow)));
+  }
+
+  .bg-gradient-dark {
+    background: linear-gradient(180deg, hsl(var(--kpnp-darker)), hsl(var(--kpnp-dark)));
+  }
+
+  .glass-card {
+    @apply bg-card/80 backdrop-blur-md border border-border/50;
+  }
+
+  .badge-sale {
+    @apply bg-primary text-primary-foreground text-xs font-bold uppercase tracking-wider px-2.5 py-1 rounded;
+  }
+
+  .badge-bestseller {
+    background: hsl(var(--kpnp-gold));
+    @apply text-black text-xs font-bold uppercase tracking-wider px-2.5 py-1 rounded;
+  }
+
+  .badge-preorder {
+    @apply bg-secondary text-secondary-foreground text-xs font-bold uppercase tracking-wider px-2.5 py-1 rounded border border-border;
+  }
+
+  .badge-coming-soon {
+    @apply bg-muted text-muted-foreground text-xs font-bold uppercase tracking-wider px-2.5 py-1 rounded;
+  }
+
+  .form-input {
+    @apply w-full bg-secondary text-foreground placeholder:text-muted-foreground text-sm px-4 py-2.5 rounded-lg border border-border focus:outline-none focus:ring-1 focus:ring-primary transition-colors;
+  }
+}
